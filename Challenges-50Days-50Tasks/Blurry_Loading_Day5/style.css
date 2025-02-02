@@ -11,16 +11,18 @@ body {
   margin: 0;
 }
 .bg {
-  background: url("https://i.pinimg.com/736x/62/b7/b5/62b7b59ad495d27d12ce9d78e16ab863.jpg")
-    no-repeat center center/cover;
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  width: calc(100vw + 60px;
-  height: calc(100vh + 60px);
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/025/181/412/small/picture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg")
+    no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
-  filter: blur(70px);
+  filter: blur(100px);
 }
+
 .loading-text {
   font-size: 50px;
   color: aliceblue;
